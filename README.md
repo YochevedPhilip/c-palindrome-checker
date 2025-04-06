@@ -1,15 +1,15 @@
 # Palindrome Checker in C
 
 This project contains a C program that checks whether a given string is a palindrome.  
-The program ignores spaces and tab characters when checking.
+The program ignores spaces and tab characters when comparing characters.
 
 ---
 
 ## Features
 
 - Reads input string (up to 80 characters)
-- Strips trailing newline (`\n`) from input
-- Skips spaces and tabs when comparing characters
+- Removes trailing newline character
+- Skips spaces and tabs while comparing
 - Prints whether the string is a palindrome or not
 
 ---
@@ -27,9 +27,9 @@ Edit
 
 ## Code structure
 
-- `palindrome.c` – contains:
-  - `palindrome()` function: core logic, compares characters while skipping spaces and tabs
-  - `main()` function: handles input and prints result
+- `palindrome.c` contains:
+  - `palindrome()` function: compares characters from both ends, skipping whitespace
+  - `main()` function: handles input, output, and formatting
 
 ---
 
@@ -38,8 +38,16 @@ Edit
 - Language: C
 - IDE: CLion
 - Compiler: GCC
-- Concepts: strings, loops, character arrays, `fgets`, `strlen`
+- Concepts: strings, character arrays, `fgets`, `strlen`, manual loop-based comparison
 
 ---
 
-🛠️ Academic practice project – focusing on clean logic and manual string handling in C.
+## Notes
+
+- Built as part of academic practice
+- Focuses on clean logic without external libraries
+- Used to strengthen understanding of low-level string handling
+
+---
+
+*This project is part of my hands-on journey in C and system-level development.*
