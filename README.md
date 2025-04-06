@@ -15,13 +15,11 @@ The program ignores spaces and tab characters when comparing characters.
 ---
 
 ## Example:
+```
 Please enter a string
 race car
 Your string is a palindrome
-
-yaml
-Copy
-Edit
+```
 
 ---
 
